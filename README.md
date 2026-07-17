@@ -2,6 +2,7 @@
 A full complete roadmap and concepts of python 
 
 # Table of Content 
+```
 1. Introduction		
 2. Python Basics	
    2.1 What is Python?	
@@ -91,3 +92,4 @@ A full complete roadmap and concepts of python
 12.16 Property 	
 12.17 Polymorphism 	
 12.18 Programs 54–56	
+```

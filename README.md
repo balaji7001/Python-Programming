@@ -1,8 +1,6 @@
 # Python-Programming
 A full complete roadmap and concepts of python 
 
-
-
 # Table of Content 
 ```
 1. Introduction		

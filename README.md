@@ -93,3 +93,9 @@ A full complete roadmap and concepts of python
 12.17 Polymorphism 	
 12.18 Programs 54–56	
 ```
+
+
+
+klgipb
+kjbu
+njbu

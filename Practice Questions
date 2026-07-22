@@ -1,1 +1,116 @@
+Module 1 – Variables (VAR-001 → VAR-020)
+VAR-001: Print Details
+Question: Print your name, age, and city.
+Description:
+Write a program that stores your name, age, and city in variables and prints them in a formatted sentence or on separate lines.
+Input:
+No input required. Store the values directly in variables.
+Output:
+Display the name, age, and city.
+Sample Output:
+	Name : Balaji
+	Age  : 22
+	City : Nellore
+Constraints:
+•	Age must be a positive integer. 
+
+Code :
+name = "balaji"
+age = 21
+city = "Nellore"
+print ("Name :",name)	
+print ("Age:",age)
+print ("City :",city)
+
+VAR-002: Sum of Two Numbers
+Question: Store two numbers and print their sum.
+Description:
+Take two numerical values, store them in variables, compute their addition, and display the result.
+Input:
+Two numbers A and B.
+Sample Input:
+10
+20
+Output:
+Display the sum of A and B.
+Sample Output:
+30
+Constraints:
+•	−10⁹ ≤ A, B ≤ 10⁹ 
+Code :
+a= int(input("Enter the first value "))
+b= int(input("Enter the second value "))
+sum = a  + b 
+print (sum)
+
+VAR-003: Swap Variables (With Temporary Variable)
+Question: Swap two variables using a temporary variable.
+Description:
+Given two variables a and b, swap their values by using a third temporary variable.
+Input:
+Two values a and b.
+Sample Input:
+5
+8
+Output:
+Display the swapped values.
+Sample Output:
+a = 8
+b = 5
+Constraints:
+•	A temporary variable must be used. 
+
+Code :
+a= int(input("Enter a value "))
+b = int (input ("Enter b value "))
+temp = a
+a = b 
+b = temp
+print ("a is ",a)
+print("b is ",b)
+________________________________________
+VAR-004: Swap Variables (Without Temporary Variable)
+Question: Swap two variables without using a temporary variable.
+Description:
+Swap the values of two variables using tuple unpacking or arithmetic operations.
+Input:
+Sample Input:
+15
+25
+Output:
+Sample Output:
+a = 25
+b = 15
+Constraints:
+•	Do not create an additional variable. 
+
+Code : 
+a= int(input("Enter a value "))
+b = int (input ("Enter b value "))
+a=a+b
+b=a-b
+a=a-b
+print("a is " , a)
+print ("b is ",b )
+________________________________________
+VAR-005: Area of a Rectangle
+Question: Calculate the area of a rectangle.
+Description:
+Calculate the area using the formula:
+Area = Length × Width
+Input:
+Sample Input:
+10
+5
+Output:
+Sample Output:
+50
+Constraints:
+•	Length > 0 
+•	Width > 0
+
+Code :
+l = int (input ("length of the rectangle "))
+w = int (input ("width of the rectangle "))
+print ("Area of rectangle :" , l*w)
 

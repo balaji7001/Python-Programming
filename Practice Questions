@@ -22,6 +22,7 @@ print ("Name :",name)
 print ("Age:",age)
 print ("City :",city)
 
+________________________________________
 
 VAR-002: Sum of Two Numbers
 Question: Store two numbers and print their sum.
@@ -44,6 +45,7 @@ b= int(input("Enter the second value "))
 sum = a  + b 
 print (sum)
 
+________________________________________
 
 VAR-003: Swap Variables (With Temporary Variable)
 Question: Swap two variables using a temporary variable.
@@ -117,4 +119,5 @@ Code :
 l = int (input ("length of the rectangle "))
 w = int (input ("width of the rectangle "))
 print ("Area of rectangle :" , l*w)
+________________________________________
 

@@ -5,7 +5,6 @@ Description:
 ### Write a program that stores your name, age, and city in variables and prints them in a formatted sentence or on separate lines.
 Input:
 No input required. Store the values directly in variables.
-```
 Output:
 Display the name, age, and city.
 Sample Output:
@@ -22,7 +21,8 @@ city = "Nellore"
 print ("Name :",name)	
 print ("Age:",age)
 print ("City :",city)
-```
+
+
 VAR-002: Sum of Two Numbers
 Question: Store two numbers and print their sum.
 Description:
@@ -43,6 +43,7 @@ a= int(input("Enter the first value "))
 b= int(input("Enter the second value "))
 sum = a  + b 
 print (sum)
+
 
 VAR-003: Swap Variables (With Temporary Variable)
 Question: Swap two variables using a temporary variable.
@@ -70,6 +71,8 @@ b = temp
 print ("a is ",a)
 print("b is ",b)
 ________________________________________
+
+
 VAR-004: Swap Variables (Without Temporary Variable)
 Question: Swap two variables without using a temporary variable.
 Description:

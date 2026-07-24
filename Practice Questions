@@ -122,3 +122,5 @@ w = int (input ("width of the rectangle "))
 print ("Area of rectangle :" , l*w)
 ________________________________________
 
+
+Var 06

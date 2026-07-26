@@ -122,6 +122,14 @@ w = int (input ("width of the rectangle "))
 print ("Area of rectangle :" , l*w)
 ________________________________________
 
+VAR-006: Circle Area and Circumference
+Question: Calculate the area and circumference of a circle.
+Problem Statement:
+Write a Python program that accepts the radius of a circle and calculates both its area and circumference. Use either math.pi or 3.14159 as the value of π.
+Input:
+•	Radius of the circle. 
+Output:
+•	Area of the circle. 
+•	Circumference of the circle. 
 
-Var-006 : Take the radius value and store it in a variable. Find Area and Circumference of a CIRCLE.
  

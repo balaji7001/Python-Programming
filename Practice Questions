@@ -131,5 +131,17 @@ Input:
 Output:
 •	Area of the circle. 
 •	Circumference of the circle. 
+Sample Input:
+7
+Sample Output:
+Area          : 153.94
+Circumference : 43.98
+Constraints:
+•	Radius > 0 
+Code : 
+r = int (input ("Enter the radius of the circle "))
+pi = 3.14  	or      pi = 22/7
+print("Area of Circle :", pi * r *r )
+print("Circumference of Circle :",2*pi*r)
 
  
